@@ -1,29 +1,26 @@
-.expense-date__container {
+.expense-date {
   display: flex;
   flex-direction: column;
+  width: 5.5rem;
+  height: 5.5rem;
+  border: 1px solid #ececec;
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 12px;
   align-items: center;
   justify-content: center;
-  padding-block: 0.5rem;
-  padding-inline: 2rem;
-  /* width: 5.5rem;
-  height: 5.5rem; */
-  background-color: #2a2a2a;
-  border-radius: 10px;
-  border: 1px solid white;
 }
 
 .expense-date__month {
+  font-size: 0.75rem;
   font-weight: bold;
-  color: white;
-}
-
-.expense-date__day {
-  font-weight: bold;
-  color: white;
-  font-size: 1.8rem;
 }
 
 .expense-date__year {
+  font-size: 0.75rem;
+}
+
+.expense-date__day {
+  font-size: 1.5rem;
   font-weight: bold;
-  color: white;
 }
